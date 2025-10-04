@@ -7,7 +7,6 @@ public class DatagramSocketClient {
         byte[] sendData=new byte[1024];
         byte[] receiveData=new byte[1024];
         sendData=line.getBytes();
-        InetAddress IPAddress = null;
         DatagramPacket sendPacket=new DatagramPacket(sendData,sendData.length,IPAddress,9000);
         clientSocket.send(sendPacket);
         System.out.println("*****Client Display Terminal*****");
