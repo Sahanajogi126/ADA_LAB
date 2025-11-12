@@ -38,12 +38,12 @@ $self inst var node
 puts "node [$node_id] recieved ping answer from $ from with round - trip - time $rtt ms"
 }
 
-set p1[newAgent/Ping]
-set p2[newAgent/Ping]
-set p3[newAgent/Ping]
-set p4[newAgent/Ping]
-set p5[newAgent/Ping]
-set p6[newAgent/Ping]
+set p1[new Agent/Ping]
+set p2[new Agent/Ping]
+set p3[new Agent/Ping]
+set p4[new Agent/Ping]
+set p5[new Agent/Ping]
+set p6[new Agent/Ping]
 
 $ns attach-agent $n1 $p1
 $ns attach-agent $n2 $p2
