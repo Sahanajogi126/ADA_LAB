@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 public class CRCDemo{
     static String msg;
