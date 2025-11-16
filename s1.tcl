@@ -22,7 +22,7 @@ set n2 [$ns node]
 
 $n0 label "TCPSource"
 $n2 label "TCPSink"
-$n0 color blue
+$ns color 1 Red
 
 $ns duplex-link $n0 $n1 1Mb 10ms DropTail
 $ns duplex-link $n1 $n2 1Mb 10ms DropTail
